@@ -4,11 +4,28 @@
     height: 100px;
 }
 
+/* Main style */
+    /* hero */
 
+    #hero{
+        background-color: #1abc9c;
+    }
 
 
 /* DEBUG */
 .debug_header{
     background-color: coral;
     min-height: 100px;
+}
+
+.hero-image{
+    background-color: crimson;
+    min-height: 200px;
+    margin: 100px 0 50px 0;
+}
+
+.debug_hero{
+    background-color: crimson;
+    margin-bottom: 50px;
+    height: 30px;
 }
