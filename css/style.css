@@ -11,6 +11,14 @@
         background-color: #1abc9c;
     }
 
+    /* portfolio */
+
+    #portfolio{
+        margin-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    
 
 /* DEBUG */
 .debug_header{
@@ -28,4 +36,16 @@
     background-color: crimson;
     margin-bottom: 50px;
     height: 30px;
+}
+
+.debug_portfolio{
+    background-color: crimson;
+    margin-bottom: 50px;
+    height: 30px;
+}
+
+.debug_card{
+    background-color: aqua;
+    height: 400px;
+    margin-bottom: 50px;
 }
