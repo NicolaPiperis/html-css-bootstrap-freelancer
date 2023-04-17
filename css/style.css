@@ -133,6 +133,34 @@ body{
         padding-top: 50px;
     }
 
+    #contact_me .line{
+        background-color: rgba(44,62,80,255);
+    }
+
+    .contact_text{
+        color: rgba(44,62,80,255);
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .form_style{
+        text-align: left;
+        color:rgba(44,62,80,255) ;
+        font-size: 20px;
+    }
+
+    #form_massage{
+        min-height: 300px;
+    }
+
+    #button_contact{
+        background-color: rgba(26,188,156,255);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+    }
+
+    
 /* footer style */
 
     /* info */
@@ -149,8 +177,31 @@ body{
         padding-top: 50px;
         min-height: 100px;
     }
-    
 
+    .copyright_text{
+        color: white;
+        font-size: 15px;
+    }
+
+    .text_info h3 {
+        color: white;
+        font-weight: 600;
+    }
+
+    .text_info div{
+        color: white;
+    }
+
+    .social_circle{
+        height: 50px;
+        width: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    
+    .fa-youtube, .fa-tiktok, .fa-instagram, .fa-facebook {
+        font-size: 25px;
+    }
 
 
 
