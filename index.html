@@ -9,7 +9,7 @@
     
 
     <!-- font awesome -->
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- css connection -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -24,26 +24,31 @@
     <!-- header part -->
     <header>
         
-        <!-- header row -->
-        <div class="row">
+        <!-- actual content -->
+        <div id="header_item" class="container-fluid">
 
-            <!-- column 100% width -->
-            <div class="col">
+            <div class="row justify-content-around align-items-center r_align">
 
-                <!-- actual content -->
-                <div id="header_item">
+                <div class="col nav_items_text_title">
+                    <strong>START BOOTSTRAP</strong>
+                </div>
 
-                    <div class="row justify-content-around align-items-center">
+                <div class="col-2 col-md-7">
+                    <i class="fa-sharp fa-solid fa-bars nav_items_icon" style="color: #ffffff;"></i>
 
-                        <div class="col-5 col-md-4 debug_header ">
-                            <strong>START BOOTSTRAP</strong>
-                        </div>
 
-                        <div class="col-2 col-md-4 debug_header">
-                            
-                        </div>
-
-                    </div>
+                    <ul class="nav disabled">
+                        <li class="nav-item">
+                          <a class="nav-link nav_items_text" aria-current="page" href="#"><strong>PORTFOLIO</strong></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav_items_text" href="#"><strong>ABOUT</strong></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav_items_text" href="#"><strong>CONTACT</strong></a>
+                        </li>
+                        
+                    </ul>
 
                 </div>
 
@@ -60,37 +65,46 @@
         <section id="hero">
 
             <!-- container full width -->
-            <div class="container-fluid">
+            <div class="container-fluid text-center">
 
                 <!-- row in column -->
-                <div class="row">
+                <div class="row justify-content-center">
 
-                    <div class="col-4 offset-4">
+                    <div class="col-4 d-flex justify-content-center">
 
                         <!-- image hero -->
-                        <div class="hero-image">
-
+                        <div class="hero-container-image">
+                            <img class="hero-image" src="img/avatar.svg" alt="avatar image">
                         </div>
 
                     </div>
 
                     <!-- title -->
-                    <div class="col-6 offset-3">
+                    <div class="col-9">
 
-                        <h2 class="debug_text">
-
-                        </h2>
+                        <h1 class="text_hero_title">
+                            START BOOTSTRAP
+                        </h1>
 
                     </div>
 
                     <!-- line and star -->
-                    <div class="col-4 offset-4">
-                        <div class="debug_text"></div>
+                    <div class="col-4">
+
+                        <div class="d-flex justify-content-center align-items-center line-star">
+
+                            <div class="line"></div>
+                            <div class="star">
+                                <i class="fa-sharp fa-solid fa-star" style="color: #ffffff;"></i></div>
+                            <div class="line"></div>
+
+                        </div>
+
                     </div>
 
                     <!-- text -->
-                    <div class="col-8 offset-2">
-                        <div class="debug_text"></div>
+                    <div class="col-10">
+                        <div class="text_hero">GRAFIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
                     </div>
 
                 </div>
@@ -103,7 +117,7 @@
         <section id="portfolio">
 
             <!-- container full width/medium/large -->
-            <div class="container-fluid container-md container-lg">
+            <div class="container-fluid container-md container-lg text-center">
 
                 <!-- text row -->
                 <div class="row">
@@ -111,17 +125,17 @@
                     <div class="col-4 offset-4">
 
                         <!-- main title -->
-                        <h3 class="debug_text"></h3>
+                        <h3 class="text_portfolio">PORTFOLIO</h3>
 
                     </div>
 
 
-                    <div class="col-6 offset-3">
+                    <div class="d-flex justify-content-center align-items-center line-star">
 
-                        <!-- line and star -->
-                        <div class="debug_text">
-
-                        </div>
+                        <div class="line"></div>
+                        <div class="star">
+                            <i class="fa-sharp fa-solid fa-star" style="color: rgba(44,62,80,255);"></i></div>
+                        <div class="line"></div>
 
                     </div>
 
@@ -133,42 +147,54 @@
                     <!-- card -->
                     <div class="col-12 col-md-6 col-lg-4">
 
-                        <div class="debug_card"></div>
+                        <div class="mb-3">
+                            <img class="card_image" src="img/cabin.png" alt="cabin">
+                        </div>
 
                     </div>
 
                     <!-- card -->
                     <div class="col-12 col-md-6 col-lg-4">
 
-                        <div class="debug_card"></div>
+                        <div class="mb-3">
+                            <img class="card_image" src="img/cake.png" alt="cake">
+                        </div>
 
                     </div>
 
                     <!-- card -->
                     <div class="col-12 col-md-6 col-lg-4">
 
-                        <div class="debug_card"></div>
+                        <div class="mb-3">
+                            <img class="card_image" src="img/circus.png" alt="circus">
+                        </div>
 
                     </div>
 
                     <!-- card -->
                     <div class="col-12 col-md-6 col-lg-4">
 
-                        <div class="debug_card"></div>
+                        <div class="mb-3">
+                            <img class="card_image" src="img/game.png" alt="game">
+                        </div>
 
                     </div>
 
                     <!-- card -->
                     <div class="col-12 col-md-6 col-lg-4">
 
-                        <div class="debug_card"></div>
+                        <div class="mb-3">
+                            <img class="card_image" src="img/safe.png" alt="safe">
+                        </div>
 
                     </div>
 
                     <!-- card -->
                     <div class="col-12 col-md-6 col-lg-4">
 
-                        <div class="debug_card"></div>
+                        <div class="mb-3">
+                            <img class="card_image" src="img/submarine.png" alt="submarine">
+                        </div>
 
                     </div>
 
@@ -182,21 +208,26 @@
         <section id="about">
 
             <!-- container -->
-            <div class="container-sm">
+            <div class="container-sm text-center">
 
                 <div class="row">
 
                     <!-- title -->
                     <div class="col-4 offset-4">
 
-                        <div class="debug_text"></div>
+                        <div class="text_about mb-3">
+                            <strong>ABOUT</strong>
+                        </div>
 
                     </div>
 
                     <!-- line and star -->
-                    <div class="col-4 offset-4">
+                    <div class="d-flex justify-content-center align-items-center line-star">
 
-                        <div class="debug_text"></div>
+                        <div class="line"></div>
+                        <div class="star">
+                            <i class="fa-sharp fa-solid fa-star" style="color: white;"></i></div>
+                        <div class="line"></div>
 
                     </div>
 
@@ -207,14 +238,14 @@
                     <div class="col-8 col-md-4">
 
                         <!-- paragraph -->
-                        <p class="debug_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, minima? Id officiis quas error nulla assumenda numquam mollitia explicabo? Aliquam rerum pariatur dignissimos ratione suscipit animi earum enim exercitationem dolores!</p>
+                        <p class="about_p mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, minima? Id officiis quas error nulla assumenda numquam mollitia explicabo? Aliquam rerum pariatur dignissimos ratione suscipit animi earum enim exercitationem dolores!</p>
                 
                     </div>
 
                     <div class="col-8 col-md-4">
 
                         <!-- paragraph -->
-                        <p class="debug_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, minima? Id officiis quas error nulla assumenda numquam mollitia explicabo? Aliquam rerum pariatur dignissimos ratione suscipit animi earum enim exercitationem dolores!</p>
+                        <p class="about_p mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, minima? Id officiis quas error nulla assumenda numquam mollitia explicabo? Aliquam rerum pariatur dignissimos ratione suscipit animi earum enim exercitationem dolores!</p>
                 
                     </div>
 
@@ -225,10 +256,11 @@
                     <!-- button -->
                     <div class="col-4 offset-4">
 
-                        <!-- turn into button -->
-                        <div class="debug_text"></div>
-
-                        <!-- <button></button> -->
+                        <button type="button" class="btn btn-outline-light mb-5">
+                            
+                            <i class="fa-sharp fa-solid fa-download" style="color: #ffffff;"></i>
+                            Download
+                        </button>
 
                     </div>
 

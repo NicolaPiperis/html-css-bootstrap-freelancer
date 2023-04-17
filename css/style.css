@@ -1,7 +1,35 @@
 /* header style */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #header_item{
     background-color: #2c3e50;
     height: 100px;
+}
+
+.r_align{
+    height: 100%;
+}
+ 
+.nav_items_text{
+    color: white;
+}
+
+.nav_items_icon{
+    color: white;
+    font-size: 30px;
+}
+
+.nav_items_text_title{
+    color: white;
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.disabled{
+    display: none;
 }
 
 /* Main style */
@@ -11,11 +39,64 @@
         background-color: #1abc9c;
     }
 
+    .hero-container-image{ 
+        margin: 100px 0 50px 0;
+        width: 350px;
+        height: 350px;
+    }
+
+    .hero-image{
+        max-width: 100%;
+    }
+
+    .line{
+        width: 40%;
+        height: 5px;
+        border-radius: 15px;
+        background-color: white;
+    }
+
+    .star{
+        font-size: 30px;
+        margin: 0 15px;
+    }
+
+    .line-star{
+        margin-bottom: 50px;
+    }
+
+    .text_hero{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .text_hero_title{
+        margin-bottom: 50px;
+        color: white;
+    }
+
     /* portfolio */
 
     #portfolio{
         margin-top: 60px;
         padding-bottom: 50px;
+    }
+
+    #portfolio .line-star .line{
+        background-color: rgba(44,62,80,255);
+        width: 20%;
+    }
+
+    .text_portfolio{
+        color:  rgba(44,62,80,255);
+        margin-bottom: 50px;
+        font-weight: 400;
+    }
+
+    .card_image{
+        max-width: 100%;
+        border-radius: 20px;
     }
 
     /* about */
@@ -24,6 +105,27 @@
         background-color: #1abc9c;
         padding-top: 50px;
     }
+
+    #about .line{
+        width: 20%;
+    }
+
+    .text_about{
+        color: white;
+        font-size: 20px;
+    }
+
+    .about_p{
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #about button:hover .fa-download{
+        display: none;
+    }
+
+    
 
     /* Contact me */
 
@@ -49,17 +151,92 @@
     }
     
 
-/* DEBUG */
-.debug_header{
-    background-color: coral;
-    min-height: 100px;
-}
 
-.hero-image{
-    background-color: crimson;
-    min-height: 200px;
-    margin: 100px 0 50px 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* MEDIA QUERY */
+
+    @media screen and (min-width:768px) {
+        .nav_items_icon{
+            display: none;
+        }
+
+        .disabled{
+            display: flex;
+            justify-content: end;
+            margin-right: 50px;
+        }
+    }
+/* DEBUG */
+
 
 .debug_text{
     background-color: rgb(27, 220, 20);
